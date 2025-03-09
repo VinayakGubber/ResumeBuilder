@@ -1,0 +1,121 @@
+/* Updated Blue-Themed Design */
+body {
+  background: url("assets/Background.svg ") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Hero Section - Uses Body's Background */
+.hero-section {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  font-size: 80px;
+  justify-content: flex-start; /* Align content to the left */
+  padding-left: 50px; /* Adjust spacing from the left */
+  background: transparent; /* Removes black background */
+}
+
+.heading {
+  color: inherit; /* Adapts to background */
+}
+
+.headHero {
+  background: linear-gradient(90deg, #604cc7, #44327b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Navbar - Dark Blue */
+.navbar {
+  font-size: 20px;
+  background-color: #003366 !important;
+}
+
+/* Footer - Dark Blue */
+.footer {
+  background-color: #003366 !important;
+}
+
+/* Cards - Glassmorphism Effect */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Buttons - Modern Blue Theme */
+.resume-builder .btn {
+  background: #003366;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.resume-builder .btn:hover {
+  background: #007bff;
+  transform: scale(1.1);
+}
+
+/* Form Section - Softer Blue */
+.form-section {
+  background-color: #d9e3f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  color: #1e3a8a;
+  border-bottom: 2px solid #003366;
+}
+
+/* Buttons */
+.add-btn {
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+}
+
+.remove-btn {
+  background-color: hsl(0, 7%, 84%);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+}
+
+.submit-btn {
+  background: #003366;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Footer - Dark Blue */
+footer {
+  background: #003366;
+  color: white;
+}
